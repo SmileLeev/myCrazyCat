@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy package &apos;com.iwifi.util&apos; to &apos;javaPro/src&apos;&#x0D;&#x0A;- Original project: &apos;MobileToken_iWiFi&apos;&#x0D;&#x0A;- Destination element: &apos;javaPro/src&apos;&#x0D;&#x0A;- Original element: &apos;MobileToken_iWiFi/src/com.iwifi.util&apos;" description="Copy package" destination="=javaPro/src" element1="/src&lt;com.iwifi.util" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1413647944605" version="1.0"/>
-</session>

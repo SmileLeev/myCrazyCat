@@ -1,0 +1,31 @@
+package com.levi.cat;
+
+public class Point {
+	public static final int STATE_OFF = 0;
+	public static final int STATE_ON = 1;
+	public static final int STATE_IN = 9;
+	
+	private int state;
+	public Point() {
+		state = STATE_OFF;
+	}
+	
+	/**
+	 * Construct of state
+	 * @param state (one of {@link STATE_OFF},{@link STATE_ON},{@link STATE_IN})
+	 */
+	public Point(int state) {
+		this.state = state;
+	}
+
+	public int getState() {
+		return state;
+	}
+
+	public void setState(int state) {
+		this.state = state;
+	}
+	
+	
+	
+}

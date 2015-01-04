@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     2014年6月12日 下午11:31:40                                                        
+
+     MyJNI    
+     description
+                   
+     SmileL                                                                
+     ====================================================================== -->
+<project name="MyJNI" default="MyCon">
+    <description>
+            description
+    </description>
+
+    <target name="MyCon" description="description">
+        <exec executable="javah">
+        	<arg value="-d"/>
+        	<arg value="${basedir}/jni"/>
+        	<arg value="-jni"/>
+        	<arg value="com.example.hellojni.MyJNIClass"/>
+        </exec>
+    </target>
+
+
+</project>

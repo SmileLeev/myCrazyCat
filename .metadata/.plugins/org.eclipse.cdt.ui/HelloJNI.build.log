@@ -1,0 +1,8 @@
+
+**** Build of configuration Default for project HelloJNI ****
+
+E:\AndroidDev\android-ndk-r9d-windows-x86_64\android-ndk-r9d\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Install        : libHelloWorld.so => libs/armeabi/libHelloWorld.so
+
+**** Build Finished ****

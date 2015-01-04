@@ -1,0 +1,64 @@
+23:43:42 **** Build of configuration Default for project HelloJNI ****
+"E:\\AndroidDev\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: HelloWorld <= HelloWorld.cpp
+[armeabi] StaticLibrary  : libstdc++.a
+[armeabi] SharedLibrary  : libHelloWorld.so
+[armeabi] Install        : libHelloWorld.so => libs/armeabi/libHelloWorld.so
+23:49:50 **** Incremental Build of configuration Default for project HelloJNI ****
+"E:\\AndroidDev\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Install        : libHelloWorld.so => libs/armeabi/libHelloWorld.so
+23:50:21 **** Incremental Build of configuration Default for project HelloJNI ****
+"E:\\AndroidDev\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Install        : libHelloWorld.so => libs/armeabi/libHelloWorld.so
+23:51:38 **** Incremental Build of configuration Default for project HelloJNI ****
+"E:\\AndroidDev\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Install        : libHelloWorld.so => libs/armeabi/libHelloWorld.so
+23:53:05 **** Incremental Build of configuration Default for project HelloJNI ****
+"E:\\AndroidDev\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Install        : libHelloWorld.so => libs/armeabi/libHelloWorld.so
+00:03:46 **** Incremental Build of configuration Default for project HelloJNI ****
+"E:\\AndroidDev\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: HelloWorld <= HelloWorld.cpp
+[armeabi] SharedLibrary  : libHelloWorld.so
+[armeabi] Install        : libHelloWorld.so => libs/armeabi/libHelloWorld.so
+00:07:32 **** Incremental Build of configuration Default for project HelloJNI ****
+"E:\\AndroidDev\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: HelloWorld <= HelloWorld.cpp
+jni/HelloWorld.cpp: In function '_jstring* Java_com_example_hellojni_MyJNIClass_getName(JNIEnv*, jclass)':
+jni/HelloWorld.cpp:5:9: error: cannot convert 'char const*' to 'jstring {aka _jstring*}' in return
+make.exe: *** [obj/local/armeabi/objs/HelloWorld/HelloWorld.o] Error 1
+00:11:35 **** Incremental Build of configuration Default for project HelloJNI ****
+"E:\\AndroidDev\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: HelloWorld <= HelloWorld.cpp
+[armeabi] SharedLibrary  : libHelloWorld.so
+[armeabi] Install        : libHelloWorld.so => libs/armeabi/libHelloWorld.so
+00:12:36 **** Incremental Build of configuration Default for project HelloJNI ****
+"E:\\AndroidDev\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Install        : libHelloWorld.so => libs/armeabi/libHelloWorld.so
+00:13:57 **** Incremental Build of configuration Default for project HelloJNI ****
+"E:\\AndroidDev\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Install        : libHelloWorld.so => libs/armeabi/libHelloWorld.so
+00:17:01 **** Incremental Build of configuration Default for project HelloJNI ****
+"E:\\AndroidDev\\android-ndk-r9d-windows-x86_64\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: HelloWorld <= HelloWorld.cpp
+[armeabi] SharedLibrary  : libHelloWorld.so
+[armeabi] Install        : libHelloWorld.so => libs/armeabi/libHelloWorld.so
+
+**** Build of configuration Default for project HelloJNI ****
+
+E:\AndroidDev\android-ndk-r9d-windows-x86_64\android-ndk-r9d\ndk-build.cmd all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Install        : libHelloWorld.so => libs/armeabi/libHelloWorld.so
+
+**** Build Finished ****
